@@ -24,7 +24,7 @@ In this project, we will gain experience in deploying applications and starting 
     - Pool: regular-vm created above
     - Create a task on the newly created job
     - Task ID/Name: stockrecommendertask1
-    - /bin/sh -c $AZ_BATCH_APP_PACKAGE_stockrecommender_1_0_0/StockRecommender
+    - Command line : **/bin/sh -c $AZ_BATCH_APP_PACKAGE_stockrecommender_1_0_0/StockRecommender**
 6. Review the stdout.txt output of the task to view the recommended stock
     - Cleanup
     - Cleanup and delete resources
